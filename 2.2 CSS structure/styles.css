@@ -1,0 +1,37 @@
+/* Create your test CSS here */
+
+p {
+    color: red;
+  }
+.special{
+    color: blueviolet;
+}
+h2{
+    color: brown;
+}
+.outer {
+    border: 5px solid black;
+  }
+  
+.box {
+    padding: 10px 15px 15px 5px;
+    width: calc(75% - 30px);
+    background-image: url("download.jpg");
+    color: blue;
+  }
+  .box1 {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(108, 224, 240);
+    transform: rotate(0.8turn);
+  }
+  body {
+  background-color: blue;
+}
+
+@media (min-width: 30em) {
+  body {
+    background-color: rgb(255, 237, 177);
+  }
+}
